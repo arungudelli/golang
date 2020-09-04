@@ -1,9 +1,9 @@
 ---
-title: Http Status Codes
+title: Golang Tutorial
 description: Http Status Code Table
 date: 2020-01-26T04:15:05+09:00
 draft: false
-updatesBanner: "Download - &nbsp; [HTTP Status Codes](https://www.httpstatuscode.info/) &nbsp; e-book"
+updatesBanner: "Download - &nbsp; [Golang Tutorial](https://golangtutorial.dev/) &nbsp; e-book"
 landingImage: favicon/android-icon-192x192.png
 landingTitle:
   - Hugo ZDoc theme

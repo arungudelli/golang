@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Http Status Codes",
-  "short_name": "Http Codes",
+  "name": "Golang Tutorial",
+  "short_name": "Golang",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Htto Status Code List",
+  "description": "Golang Tutorial",
   "start_url": "/",
   "icons": [
     {

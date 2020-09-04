@@ -1,7 +1,7 @@
 logo = true
-logoText = "Http Status Codes"
+logoText = "Golang Tutorial"
 logoType = "short" # long, short
-description = "Everything About Http Status Codes"
+description = "Golang Tutorial"
 
 themeOptions = ["light", "dark"]
 

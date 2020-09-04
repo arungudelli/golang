@@ -1,5 +1,5 @@
-baseURL = "https://www.httpstatuscode.info/"
-title = "Http Status Codes"
+baseURL = "https://golangtutorial.dev/"
+title = "Golang Tutorial"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
