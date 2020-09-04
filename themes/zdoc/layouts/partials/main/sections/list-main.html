@@ -1,7 +1,7 @@
 <div class="single" data-display="block">
   {{ if eq .Type "blog" }}
     <div class="single__title">
-      {{ .Title }}
+      <h1>{{ .Title }}</h1>
     </div>
     <div class="single__meta">
       {{ partial "main/component/article-meta.html" . }}
