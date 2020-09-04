@@ -1,7 +1,7 @@
 [[main]]
-  identifier = "codes"
-  name = "Codes"
-  url = "codes"
+  identifier = "Tutorial"
+  name = "Tutorial"
+  url = "Tutorial"
   weight = 1
 
 #[[main]]
