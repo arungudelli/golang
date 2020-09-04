@@ -3,7 +3,7 @@ title: Golang Tutorial
 description: Http Status Code Table
 date: 2020-01-26T04:15:05+09:00
 draft: false
-updatesBanner: "Download - &nbsp; [Golang Tutorial](https://golangtutorial.dev/) &nbsp; e-book"
+updatesBanner: "Golang Tutorial Blog Launched"
 landingImage: favicon/android-icon-192x192.png
 landingTitle:
   - Hugo ZDoc theme
@@ -12,13 +12,13 @@ landingText:
 titleColor:
 textColor:
 spaceBetweenTitleText: 25
-buttons:
-  - link: docs/gettingstarted/quickstart
-    text: GET STARTED
-    color: primary
-  - link: https://github.com/zzossig/hugo-theme-zdoc
-    text: DOWNLOAD
-    color: default
+#buttons:
+#  - link: docs/gettingstarted/quickstart
+#    text: GET STARTED
+#    color: primary
+#  - link: https://github.com/zzossig/hugo-theme-zdoc
+#    text: DOWNLOAD
+#    color: default
 # shields:
   # - link: https://github.com/zzossig/hugo-theme-zdoc
   #   image: https://img.shields.io/github/forks/zzossig/hugo-theme-zdoc?label=Fork&style=social
@@ -28,3 +28,6 @@ buttons:
   #   alt: Hugo ZDoc theme github stars
 ---
 
+# The Go Programming Language Tutorial
+
+Hello
