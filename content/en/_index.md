@@ -4,6 +4,7 @@ description: Http Status Code Table
 date: 2020-01-26T04:15:05+09:00
 draft: false
 updatesBanner: "Golang Tutorial Blog Launched"
+link: "Golang"
 landingImage: favicon/android-icon-192x192.png
 landingTitle:
   - Hugo ZDoc theme

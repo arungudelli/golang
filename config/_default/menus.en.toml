@@ -1,8 +1,8 @@
 [[main]]
-  #identifier = "Tutorial"
-  #name = "Tutorial"
-  #url = "tutorial"
-  #weight = 1
+  identifier = "learn"
+  name = "learn"
+  url = "learn"
+  weight = 1
 
 #[[main]]
 #  identifier = "updates"

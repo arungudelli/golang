@@ -1,11 +1,11 @@
 <div class="menu">
-  <h6 class="menu__label">
+  <!-- <h6 class="menu__label">
     {{ if .IsHome }}
       {{ .Site.Title }}
     {{ else }}
       {{ $.Param "Title" }}
     {{ end }}
-  </h6>
+  </h6> -->
   <ul>
     {{ $root := . }}
     {{ range (.Site.GetPage "section" .Type).Pages }}
@@ -29,7 +29,7 @@
   
   {{ if $ctx.Params.Collapsible }}
   <span class="menu__title--collapse {{ if $active }}active{{ end }}" data-depth="{{ $depth }}">
-    {{ $ctx.Title }}
+    {{ $ctx.Params.link }}
     <span
       class="menu__title--icon {{ if $active }}{{ if eq ($root.Param "languagedir") "rtl" }}downrtl{{ else }}down{{ end }}{{ else }}right{{ end }}">
       {{ if eq ($root.Param "languagedir") "rtl" }}
@@ -50,7 +50,7 @@
     <li>
       <a href="{{ .Permalink }}"
         class="menu__title {{ if and (eq $lastUrlElement1 $lastUrlElement2) (eq $sectionName1 $sectionName2) }}active{{ end }}"
-        data-depth="{{ $depth }}">{{ .Title }}</a>
+        data-depth="{{ $depth }}">{{ .Params.link }}</a>
     </li>
     {{ end }}
     {{ end }}
@@ -59,7 +59,7 @@
   {{ $lastUrlElement1 := index (last 1 (split (delimit (split $ctx.Permalink "/") "," "") ",")) 0 }}
   {{ $lastUrlElement2 := index (last 1 (split (delimit (split $currentURL "/") "," "") ",")) 0 }}
   <li class="{{ if $active }}active{{ end }}">
-    <a href="{{ $ctx.Permalink }}" class="menu__title {{ if $active }}active{{ end }}">{{ $ctx.Title }}</a>
+    <a href="{{ $ctx.Permalink }}" class="menu__title {{ if $active }}active{{ end }}">{{ $ctx.Params.link }}</a>
   </li>
   {{ end }}
 {{ end }}

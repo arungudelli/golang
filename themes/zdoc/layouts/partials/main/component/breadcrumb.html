@@ -10,11 +10,11 @@
   {{ end }}
   <li {{ if eq .p1 .p2 }} class="is-active" {{ end }}>
     {{ if eq (len .p1.Title) 0 }}
-      <a href="{{ .p1.Permalink }}" class="capitalize">{{ .p1.Site.Title }}</a>
+      <a href="{{ .p1.Permalink }}" class="capitalize">{{ .p1.Params.link }}</a>
     {{ else if eq .p1 .p2 }}
-      <span>{{ i18n (lower .p1.Title) | default .p1.Title }}</span>
+      <span>{{ i18n (lower .p1.Params.link) | default .p1.Params.link }}</span>
     {{ else }}
-      <a href="{{ .p1.Permalink }}" class="capitalize">{{ i18n (lower .p1.Title) | default .p1.Title }}</a>
+      <a href="{{ .p1.Permalink }}" class="capitalize">{{ i18n (lower .p1.Params.link) | default .p1.Params.link }}</a>
     {{ end }}
   </li>
   {{ end }}
