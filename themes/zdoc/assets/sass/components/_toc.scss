@@ -16,6 +16,10 @@
     position: relative;
   }
 
+  #TableOfContents li {
+    margin-bottom: 10px !important;
+  }
+
   &__label {
     font-family: $title-font;
     font-size: 1rem;
