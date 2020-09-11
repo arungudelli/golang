@@ -59,6 +59,8 @@ Navigate to source code folder and run the above command again.
 Hello!, World
 ```
 
+![Hello World Go example](/images/helloworld/Hello_World_Go_example.png)
+
 Or you can pass the complete relative path of the source code file to the `go run` command to run the program.
 
 ```
@@ -85,11 +87,16 @@ D:.
 
 ```
 
+![Hello world go Binary location](/images/helloworld/Hello_world_Binary_file_location.png)
+
+
 Now we can run the generated executable binary file directly.
 
 ```
 >hello_world.exe
 Hello!, world
 ```
+
+![Hello world go executable binary](/images/helloworld/goexecutablebinary.png)
 
 
