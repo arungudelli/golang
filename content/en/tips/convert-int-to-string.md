@@ -1,13 +1,13 @@
 +++
-title = "How to Convert an int to string (int32 & int64) in Golang"
+title = "How to Convert an int to string (int32 & int64) in Go"
 date = "11-09-2020T23:19:47"
 lastmod= "11-09-2020T23:20:47"
-description = "To Convert an int to string in Golang use strconv.Itoa()(int32 to string) and strconv.FormatInt()(int64 to string) functions which are part of Go's strconv package"
+description = "To Convert an int to string in Go use strconv.Itoa()(int32 to string) and strconv.FormatInt()(int64 to string) functions which are part of Go's strconv package"
 draft = "false"
 link = "convert int to string"
 +++
 
-To Convert an int to string in Golang use `strconv.Itoa()`(int32 to string) and `strconv.FormatInt()`(int64 to string) functions which are part of Go's `strconv` package.
+To Convert an int to string in Go use `strconv.Itoa()`(int32 to string) and `strconv.FormatInt()`(int64 to string) functions which are part of Go's `strconv` package.
 
 We will go through an example to understand them further.
 
