@@ -2,6 +2,7 @@
 title: Blog
 description: Blog list page
 blogHeaderType: text
+draft: true
 headerHeight: 112
 header:
   - type: text
