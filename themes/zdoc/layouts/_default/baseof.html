@@ -12,14 +12,7 @@
     {{ partial "head/services" . }}
 </head>
 
-<body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">
-    <script>
-        var localTheme = localStorage.getItem('theme');
-        if (localTheme) {
-            document.getElementById('root').className = `theme__${localTheme}`;
-        }        
-    </script>
-    
+<body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">    
     <div id="container">
         {{ partial "drawer/drawer.html" . }}
         {{ partial "navbar/navbar.html" . }}

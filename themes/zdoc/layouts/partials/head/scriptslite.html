@@ -119,26 +119,6 @@
     }
     // ============================================================
 
-    
-    // ======================= toggle theme =======================
-    var root = document.getElementById('root');
-    var toggleToLightBtn = document.getElementById('toggleToLight');
-    var toggleToDarkBtn = document.getElementById('toggleToDark');
-
-    toggleToDark.onclick = function(e) {
-      root.className = 'theme__dark';
-      localStorage.setItem('theme', 'dark');
-      toggleToLightBtn.className = 'navbar__icons--icon';
-      toggleToDarkBtn.className = 'hide';
-    }
-
-    toggleToLight.onclick = function (e) {
-      root.className = 'theme__light';
-      localStorage.setItem('theme', 'light');
-      toggleToLightBtn.className = 'hide';
-      toggleToDarkBtn.className = 'navbar__icons--icon';
-    }
-
 
     // =================== section menu collapse ==================
     document.querySelectorAll('.menu__list').forEach(function(elem) {
@@ -315,68 +295,6 @@
       }
       lastScrollTop = st <= 0 ? 0 : st;
     };
-    // ============================================================
-
-  // ======================= theme change =======================
-    var localTheme = localStorage.getItem('theme');
-    var rootEleme = document.getElementById('root');
-    var selectThemeElem = document.querySelectorAll('.select-theme');
-    var selectThemeItemElem = document.querySelectorAll('.select-theme__item');
-    
-    if (localTheme) {
-      selectThemeItemElem ? 
-      selectThemeItemElem.forEach(function (elem) {
-        if (elem.text.trim() === localTheme) {
-          elem.classList.add('is-active');
-        } else {
-          elem.classList.remove('is-active');
-        }
-      }) : null;
-    }
-
-    selectThemeItemElem ? 
-    selectThemeItemElem.forEach(function (v, i) {
-      v.addEventListener('click', function (e) {
-        var selectedThemeVariant = e.target.text.trim();
-        localStorage.setItem('theme', selectedThemeVariant);
-
-        rootEleme.removeAttribute('class');
-        rootEleme.classList.add(`theme__${selectedThemeVariant}`);
-        selectThemeElem.forEach(function(rootElem) {
-          rootElem.querySelectorAll('a').forEach(function (elem) {
-            if (elem.classList) {
-              if (elem.text.trim() === selectedThemeVariant) {
-                if (!elem.classList.contains('is-active')) {
-                  elem.classList.add('is-active');
-                }
-              } else {
-                if (elem.classList.contains('is-active')) {
-                  elem.classList.remove('is-active');
-                }
-              }
-            }
-          });
-        });
-
-        if (window.mermaid) {
-          if (selectedThemeVariant === "dark" || selectedThemeVariant === "hacker") {
-            mermaid.initialize({ theme: 'dark' });
-            location.reload();
-          } else {
-            mermaid.initialize({ theme: 'default' });
-            location.reload();
-          }
-        }
-
-        var utterances = document.querySelector('iframe');
-        if (utterances) {
-          utterances.contentWindow.postMessage({
-            type: 'set-theme',
-            theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
-          }, 'https://utteranc.es');
-        }
-      });
-    }) : null;
-  // ============================================================
+    // ============================================================  
   }
 </script>
