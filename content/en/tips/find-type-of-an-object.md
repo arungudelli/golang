@@ -52,7 +52,7 @@ variable amount=10.2 is of type float32
 
 ## Using reflect package's functions
 
-If the above method is not useful, or If you want to get more information about variable type, we can use Go's reflect package functions TypeOf and ValueOf().Kind() to check the variable type.
+If the above method is not useful, or If you want to get more information about variable type, we can use Go's reflect package functions TypeOf and ValueOf().Kind() functions.
 
 ### reflect.TypeOf() method 
 
@@ -136,6 +136,8 @@ variable isCheck='false' is of type bool
 variable objectValue=10.2 is of type float32
 
 ```
+
+The disadvantage of this approach is we need to export reflect package which might increase the memory footprint.
 
 ## Using Type assertions
 
