@@ -1,7 +1,6 @@
 +++
 title = "4 methods to check or find type of an Object or Variable in Go"
-date = "02-11-2020T00:19:47"
-lastmod= "02-11-2020T00:20:47"
+date = "2020-09-05T14:09:21+09:00"
 description = "To check or find the type of variable or object in Go language, we can use %T string format flag, reflect.TypeOf, reflect.ValueOf.Kind functions.And another method is to use type assertions with switch case"
 draft = "false"
 link = "Find Type of a varibale or object"
