@@ -14,11 +14,11 @@ Download .MSI file from official [go lang website](https://golang.org/dl/go1.15.
 
 Open the MSI and it will Open Go programming language installation setup wizard, click on Next Button
 
-![Go installation Wizard](/images/install/goInstall1.png)
+![Go installation Wizard](/images/install/goInstall1.PNG)
 
 And then it will open end user license agreement, I know most of them won't read them click on accept and proceed with the next steps.
 
-![Go end user license agreement](/images/install/goInstall2.png)
+![Go end user license agreement](/images/install/goInstall2.PNG)
 
 In the next step it will ask for Go progragmming language installation folder.
 
@@ -26,7 +26,7 @@ In the next step it will ask for Go progragmming language installation folder.
 
 The default installation location of Go progragmming Language in Windows is "C:\Go".
 
-![Go Language Location](/images/install/goinstalllocation.png)
+![Go Language Location](/images/install/goinstalllocation.PNG)
 
 If you are beginner and don't know much above environment varibles etc.. do not change the installation folder keep it as is. As our goal is to learn the go language not the setup.
 
@@ -34,11 +34,11 @@ If you are beginner and don't know much above environment varibles etc.. do not 
 
 Click on Next button it will start the installation process 
 
-![Go Installation Process](/images/install/golanginstallprocess.png)
+![Go Installation Process](/images/install/golanginstallprocess.PNG)
 
 If everything is Ok you should see "Completed the go programming language setup wizard" popup. 
 
-![Go Installation Completed](/images/install/golanginstallFinish.png).
+![Go Installation Completed](/images/install/golanginstallFinish.PNG).
 
 ## Verify Go language Installation
 
@@ -53,4 +53,4 @@ go version go1.15.1 windows/amd64
 
 If command prompt is already opened, close it and restart the command propmpt.
 
-![Go Installation Verification](/images/install/goVerify.png).
+![Go Installation Verification](/images/install/goVerify.PNG).
