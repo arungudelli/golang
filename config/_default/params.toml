@@ -1,7 +1,7 @@
 logo = true
-logoText = "Golang Tutorial"
+logoText = "golangtutorial.dev"
 logoType = "short" # long, short
-description = "Golang Tutorial"
+description = "Go language Tutorial"
 
 themeOptions = ["light", "dark"]
 
