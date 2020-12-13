@@ -10,32 +10,9 @@
   </div>
 
   <div class="drawer__body">
+    {{ if $.Param "enableMenu" }}
     {{ partial "main/sections/list-menu.html" . }}
+    {{ end }}
   </div>
 </div>
 <div id="myModal" class="modal" style="{{ if eq ($.Param "languagedir") "rtl" }}opacity: 0; right: -100%{{ end }}"></div>
-
-<script>
-  var isDrawerOpen = localStorage.getItem('isDrawerOpen');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-  
-  {{ $languagedir := ($.Param "languagedir" | default "ltr") }}
-  var languagedir = JSON.parse({{ $languagedir | jsonify }});
-
-  var openDrawer = function () {
-    modal.style.opacity = 1;
-    
-    if (languagedir === "rtl") {
-      modal.style.right = 0;
-      drawer.style.right = 0;
-    } else {
-      modal.style.left = 0;
-      drawer.style.left = 0;
-    }
-  }
-
-  if (isDrawerOpen && isDrawerOpen === 'true') {
-    openDrawer();
-  }
-</script>

@@ -8,7 +8,7 @@
   </h6> -->
   <ul>
     {{ $root := . }}
-    {{ range (.Site.GetPage "section" .Type).Pages }}
+    {{ range .Site.Sections }}
       {{ template "render-menu" (dict "ctx" . "root" $root "depth" 0)}}
     {{ end }}
   </ul>
@@ -64,24 +64,3 @@
   {{ end }}
 {{ end }}
 
-<script>
-  var menuTitle = document.querySelectorAll('.menu__title');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-
-  var closeDrawer = function () {
-    setTimeout(function () {
-      modal.style.opacity = 0;
-      drawer.style.left = '-100%';
-      modal.style.left = '-100%';
-    }, 250);
-  }
-
-  menuTitle ? 
-  menuTitle.forEach(function(elem) {
-    elem.onclick = function() {
-      closeDrawer();
-      localStorage.setItem('isDrawerOpen', 'false');
-    }
-  }) : null;
-</script>

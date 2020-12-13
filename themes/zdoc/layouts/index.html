@@ -1,7 +1,8 @@
-{{ define "title" }}{{ .Site.Title }}{{ end }}
 {{ define "header" }}
-  {{ partial "header/site-header.html" . }}
+  {{ partial "main/header.html" . }}
 {{ end }}
 {{ define "main" }}
-  {{ partial "main/home.html" . }}
+  {{ $section_to_display :=  .Sections }}
+  {{ partial "main/list.html" (dict "context" . "section_to_display" $section_to_display) }}
 {{ end }}
+
