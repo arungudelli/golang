@@ -1,5 +1,5 @@
 baseURL = "https://golangtutorial.dev/"
-title = "Golang Tutorial"
+title = "golangtutorial.dev"
 theme = "zdoc"
 
 defaultContentLanguage = "en"

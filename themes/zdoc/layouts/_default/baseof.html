@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
+<html lang="{{ .Site.Language.Lang }}" dir="ltr">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
-    {{ partial "head/scriptslite" . }}
+    <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+    <script src={{"js/enquire.min.js" | absURL}}></script>
     {{ partialCached "head/styles" . }}
     {{ partial "head/meta" . }}
     {{ partial "head/meta_json_ld" . }}
-    {{ partial "head/services" . }}
 </head>
 
 <body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">    
@@ -21,22 +20,23 @@
         {{ partial "footer/footer.html" . }}
     </div>
 
-<script>
+<script src={{"js/site.js" | absURL}}></script>
+<!-- <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(function(err) {
     console.log('ServiceWorker failed', err);
   });
 }
-</script>   
+</script>    -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177834245-1"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177834245-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-177834245-1');
-</script>
+</script> -->
 
 </body>
 
