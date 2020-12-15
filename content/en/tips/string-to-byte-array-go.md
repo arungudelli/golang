@@ -16,7 +16,7 @@ To convert a string to byte array or slice in Go language use the below one line
 
 We can use byte array to store a collection of binary data, for example, the contents of a file.
 
-The above code to convert string to byte slice is very useful while using `ioutil.WriteFile` function, which accepts a bytes slice as its parameter:
+The above code to convert string to byte slice is very useful while using `ioutil.WriteFile` function, which accepts a bytes as its parameter:
 
 ```
 WriteFile func(filename string, data []byte, perm os.FileMode) error
@@ -26,7 +26,13 @@ We will go through an example to understand it further.
 
 ## string to byte array example
 
-I created a file named 'convert-string-to-byte-array.go'.
+When we convert a string to a byte slice (array), we will get a new array that contains the same bytes as the string.
+
+The conversion doesn’t change the string data.
+
+I wrote a go program ('convert-string-to-byte-array.go') which convert a string to byte slice and prints it in the command prompt.
+
+The converted byte array contains ASCII values of string characters.
 
 ```
 package main
@@ -36,14 +42,10 @@ import (
 )
 
 func main() {
-
 	var str string
-
 	str = "string to byte array or slice"
-
 	// converting and printing Byte array
 	fmt.Println([]byte(str))
-
 }
 ```
 
