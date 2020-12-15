@@ -4,6 +4,8 @@ date = "2020-11-05T14:09:21+09:00"
 description = "To convert a string to byte array or slice in Go language use []byte(string)"
 draft = "false"
 link = "convert string to byte array"
+image= "images/featured/convert-string-byte-array.png"
+
 +++
 
 To convert a string to byte array or slice in Go language use the below one liner code.
