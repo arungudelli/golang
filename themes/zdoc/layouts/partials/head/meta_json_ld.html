@@ -1,34 +1,34 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
+    "@type": "Article",
     "url" : {{ .Permalink }},
-    "name": {{ .Title }},
+    "headline": {{ .Title }},
     {{ with $.Param "description" -}}
     "description": {{ . }},
     {{ end -}}
     {{ with $.Param "image" -}}
     "image" : {{ . | absURL }},
     {{ end -}}
-    {{ with $.Param "author" -}}
     "author": {
       "@type": "Person",
-      "name": {{ . }}
+      "name": "Arunkumar Gudelli"
     },
+    {{ with $.Param "date" -}}
+    "datePublished":{{.}},
+    "dateModified":{{.}},
     {{ end -}}
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": {{ .Site.BaseURL }}
+      "@id": {{ .Permalink }}
     },
     "publisher": {
       "@type": "Organization",
       "name": {{ .Site.Title  }},
-      {{ with $.Param "icon" -}}
       "logo" : {
         "@type": "ImageObject",
-        "url": {{ . | absURL }}
+        "url": {{ "golanglogo.png" | absURL }}
       },
-      {{ end -}}
       "url": {{ .Site.BaseURL }}
     }
   }
