@@ -1,6 +1,6 @@
 +++
 title = "Convert a String To Byte Array or Slice in Go"
-date = "2020-11-05T14:09:21+09:00"
+date = "2020-12-13T14:09:21+09:00"
 description = "To convert a string to byte array or slice in Go language use []byte(string)"
 draft = "false"
 link = "convert string to byte array"
