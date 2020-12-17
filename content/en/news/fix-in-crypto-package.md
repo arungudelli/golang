@@ -15,7 +15,7 @@ The ability to trigger the `gssapi-with-mic` authentication method is not proper
 
 If this field is not set and a client sends a `gssapi-with-mic` request, regardless of if the server advertises it, the server will panic.
 
-The Version v0.0.0-20201216223049-8b5274cf687f of [golang.org/x/crypto](golang.org/x/crypto) fixes this vulnerability in the golang.org/x/crypto/ssh package.
+The Version v0.0.0-20201216223049-8b5274cf687f of [golang.org/x/crypto](https://golang.org/x/crypto) fixes this vulnerability in the golang.org/x/crypto/ssh package.
 
 Here is the complete details regarding the fix.
 
