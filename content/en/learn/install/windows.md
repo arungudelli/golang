@@ -4,6 +4,7 @@ description: "Learn How to setup go programming language in Windows OSEnvironmen
 date: 2020-09-05T14:09:21+09:00
 draft: false
 link: "Windows"
+weight: 1
 ---
 
 To install Go language in Windows OS follow the below steps.
