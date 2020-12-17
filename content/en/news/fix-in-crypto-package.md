@@ -9,7 +9,7 @@ enableToc= false
 
 +++
 
-Recently Joern Schneewesiz of GitLab Security Research Team discovered a bug in Go language crypto/ssh package.
+Recently Joern Schneeweisz of GitLab Security Research Team discovered a bug in Go language crypto/ssh package.
 
 The ability to trigger the `gssapi-with-mic` authentication method is not properly guarded when `GSSAPIWithMICConfig` field of the ServerConfig type is nil. 
 
