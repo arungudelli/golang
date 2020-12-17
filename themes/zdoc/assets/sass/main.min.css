@@ -3918,8 +3918,8 @@ input:checked+.slider:before {
 }
 
 .single__contents h3 {
-	font-size: 1.8rem;
-	margin: 2.8rem 0 1.25rem
+	font-size: 1.2rem;
+	/* margin: 2.8rem 0 1.25rem */
 }
 
 .single__contents h4 {
