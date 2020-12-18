@@ -4482,3 +4482,42 @@ table:not(.lntable) td code {
 .blog .subtitle {
 	margin: .25rem 0
 }
+
+.a-sub {
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+.a-header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: 25px;
+    font-weight: 700;
+}
+.a-form {
+    padding: 10px;
+}
+
+.a-btn span {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+.a-required {
+    width: 100%;
+	margin-bottom: 10px;
+	height: 35px;
+}
+.a-btn {
+    background-color: #007d9c;
+	color: #fff;
+	font-size: 20px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+#mce-EMAIL{
+	width: 99%;
+}
