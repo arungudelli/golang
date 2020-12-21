@@ -1,5 +1,5 @@
 +++
-title = "Embed Files in Go Language"
+title = 'Embed Files in Go using "embed package" in go 1.16 version'
 date = "2020-12-17T14:09:21+09:00"
 description = "In Go 1.16 version, using package embed, we can easily embed files in Go programs."
 draft = "false"
