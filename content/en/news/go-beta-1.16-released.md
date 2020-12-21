@@ -11,7 +11,7 @@ enableToc= false
 
 Google Team released **go1.16beta1**, a beta version of Go 1.16.
 
-If you have already installed Go language, the easiest way to **update to go1.16beta1** version is by using the `go command`:
+If you have already installed Go language, the easiest way to **update to go 1.16 beta1** version is by using the `go command`:
 
 ```
 $ go get golang.org/dl/go1.16beta1
@@ -19,7 +19,6 @@ $ go1.16beta1 download
 ```
 
 Try the new version and report any problems using the issue [tracker](https://golang.org/issue/new)
-
 
 
 To download binary and source distributions of version go1.16beta1 use this [link](https://golang.org/dl/#go1.16beta1)
