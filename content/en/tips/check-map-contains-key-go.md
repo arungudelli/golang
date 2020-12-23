@@ -4,7 +4,7 @@ date = "2020-12-21T14:09:21+09:00"
 description = "To check if a map contains a key in Go, follow the below steps."
 draft = "false"
 link = "Check if a map contains a key"
-image= "images/featured/convert-string-byte-array.png"
+image= "images/featured/golangpostimage.png"
 enableToc = false
 +++
 
