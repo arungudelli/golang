@@ -10,13 +10,13 @@ enableToc = true
 
 To concatenate strings in Go (aka Golang) we can use `strings.Builder` and `bytes.Buffer` types.
 
-In Go language, string is a primitive type and it is read-only.
+In Go language, string is a primitive type and it is immutable.
 
-Whenever we change a string in Go,it will create a new string.
+Whenever we change a string or append to another string, we will be creating a new string.
 
 Because of this reason concatenating strings using `+` operator can be inefficient while joining a lot of strings together.
 
-So the best way to concatenate multiple strings without knowing the length of the resulting string is to use `strings.Builder` and `bytes.Buffer` types.
+So using `strings.Builder` and `bytes.Buffer` types is the best way to concatenate multiple strings together, when we dont know the length of the resulting string.
 
 ## Using strings.Builder
 
