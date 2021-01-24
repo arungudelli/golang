@@ -5,6 +5,8 @@ description = "Golang's net/http package is used to make HTTP requests in Go.The
 draft = "false"
 link = "http post json"
 enableToc = false
+image= "images/featured/golangpostimage.png"
+
 +++
 
 Golang's `net/http` package is used to make HTTP requests in Go.
