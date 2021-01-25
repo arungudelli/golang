@@ -17,8 +17,8 @@ If you are not sure which version to update choose Go 1.15.7.
 
 The issues fixed as part of these releases.
 
-1. [cmd/go: packages using cgo can cause arbitrary code execution at build time](golang.org/issue/43783)
-2. [crypto/elliptic: incorrect operations on the P-224 curve](golang.org/issue/43786)
+1. [cmd/go: packages using cgo can cause arbitrary code execution at build time](https://github.com/golang/go/issues/43783)
+2. [crypto/elliptic: incorrect operations on the P-224 curve](https://golang.org/issue/43786)
 
 The security issue in cmd/go package has been reported by [RyotaK](https://twitter.com/ryotkak)
 
