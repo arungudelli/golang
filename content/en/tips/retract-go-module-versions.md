@@ -3,7 +3,7 @@ title = "Retract Go Module Versions in Go 1.16"
 date = "2021-02-12T00:00:00+00:00"
 description = "Learn how to retract Go module versions in Go 1.16"
 draft = "false"
-link = "retract go module"
+link = "retract go module version"
 image= "images/featured/golangpostimage-retract.png"
 enableToc = true
 +++
