@@ -1,10 +1,10 @@
 +++
 title = "Retract Go Module Versions in Go 1.16"
 date = "2021-02-12T00:00:00+00:00"
-description = "Learn how to retract Go module versions"
+description = "Learn how to retract Go module versions in Go 1.16"
 draft = "false"
 link = "retract go module"
-image= "images/featured/golangpostimage.png"
+image= "images/featured/golangpostimage-retract.png"
 enableToc = true
 +++
 
@@ -16,7 +16,9 @@ So what is retracting?
 
 If you search in Google we will get meanings like `draw back` or `withdraw`.
 
-The word retract taken from academic literature "a retracted research paper is still available, but it has problems and should not be the basis of future work"
+The word retract taken from academic literature 
+
+>A retracted research paper is still available, but it has problems and should not be the basis of future work
 
 We will publish our Go modules to Github using versioning mechanism. 
 
@@ -28,7 +30,7 @@ We cannot modify the code in v0.1.0 and few people might be using them.
 
 And there is no way to tell the users that **Don't use this version**.
 
-**Go 1.16 retract feature** solve this problem by tagging the version as **retract**.
+>**Go 1.16 retract feature** solve this problem by tagging the version as **retract**.
 
 Let's go through an example to understand it further. 
 
@@ -39,6 +41,9 @@ go1.16rc1 version
 
 go version go1.16rc1 windows/amd64
 ```
+
+Install Go 1.16RC1 as mentioned in the [Go-1.16 RC1 released](https://golangtutorial.dev/news/g-1.16rc1-released/) article.
+
 
 I have created a github repository for this demo. 
 
@@ -183,7 +188,7 @@ Go 1.16 comes with the rescue feature `retract`.
 
 As a publisher We have to fix our code and inform the user about mistake happened in version 2.
 
-**To mark a Go module version as retract use the '-retract' flag**.
+>**To mark a Go module version as retract use the '-retract' flag**.
 
 Modify the package `go.mod` file with `go mod edit` command following by -retract flag.
 
@@ -366,6 +371,8 @@ github.com/arungudelli/Retract-Go-Module-Versions v0.1.0 v0.2.0 v0.3.0 v0.3.1
 
 Retracted versions are included in the output.
 
+![List all versions of GO Modules](/images/retracted/Listing-go-module-versions.png)
+
 ## Installing Retracted Go Module versions
 
 Even though we marked the versions as retracted, we can still download and use the packages.
@@ -379,6 +386,15 @@ go: to switch to the latest unretracted version, run:
         go get github.com/arungudelli/Retract-Go-Module-Versions@latestgo get: downgraded github.com/arungudelli/Retract-Go-Module-Versions v0.3.1 => v0.2.0
 ```
 
+![List all versions of GO Modules](/images/retracted/Retracted-version-message.png)
+
 The message displayed will be the comment added above the retract version in `go.mod` file. 
 
 So while adding retracted versions give a meaningful message to the user.
+
+You can download or clone the repository of this demo.
+
+```
+git clone https://github.com/arungudelli/Retract-Go-Module-Versions.git
+```
+
