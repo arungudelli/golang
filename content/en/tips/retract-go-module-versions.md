@@ -8,9 +8,9 @@ image= "images/featured/golangpostimage-retract.png"
 enableToc = true
 +++
 
-One of the cool features of Go 1.16 is retracting Go Module versions.
+One of the cool feature of Go 1.16 is retracting Go Module versions.
 
-## What is retracting
+## What is retracting?
 
 So what is retracting?
 
@@ -24,7 +24,7 @@ We will publish our Go modules to Github using versioning mechanism.
 
 In one of the module version you did a mistake and released it to the produciton with the new version number(v0.1.0).
 
-In the meanwhile you realised and published a new version with the fix(v0.2.0).
+In the meanwhile you realised the mistake and published a new version with the fix(v0.2.0).
 
 We cannot modify the code in v0.1.0 and few people might be using them. 
 
@@ -34,7 +34,7 @@ And there is no way to tell the users that **Don't use this version**.
 
 Let's go through an example to understand it further. 
 
-First check your Go version, I am using Go RC1 version.
+First check your Go version, I am using Go 1.16 RC1 version.
 
 ```
 go1.16rc1 version
@@ -89,6 +89,9 @@ My intial version is ready. So all I have to do is adding the tag to the module.
 ```
 
 Now in github we can see the versions.
+
+![Github version](/images/retracted/github.PNG)
+
 
 Now To use this module, I have created a small `go` program, which will use the Welcome function in `hello.go` module.
 
@@ -180,13 +183,13 @@ After running the application
 //Hello, gophers From Go 1.15
 ```
 
-A terrible mistake happened Go version supposed to be `1.16` but changed to `1.15` in version 2.
+A terrible mistake happened, `Go` version supposed to be `1.16` but changed to `1.15` in version 2.
 
 ## Retracting Go Module version
 
 Go 1.16 comes with the rescue feature `retract`.
 
-As a publisher We have to fix our code and inform the user about mistake happened in version 2.
+As a publisher We have to fix our code and inform the user about mistake happened in the version.
 
 >**To mark a Go module version as retract use the '-retract' flag**.
 
@@ -392,7 +395,7 @@ The message displayed will be the comment added above the retract version in `go
 
 So while adding retracted versions give a meaningful message to the user.
 
-You can download or clone the repository of this demo.
+You can download or clone the [repository of this demo](https://github.com/arungudelli/Retract-Go-Module-Versions).
 
 ```
 git clone https://github.com/arungudelli/Retract-Go-Module-Versions.git
