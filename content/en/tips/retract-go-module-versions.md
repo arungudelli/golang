@@ -398,3 +398,7 @@ You can download or clone the repository of this demo.
 git clone https://github.com/arungudelli/Retract-Go-Module-Versions.git
 ```
 
+I hope you enjoyed the article if so please share it with others.
+
+Follow me on [twitter](https://twitter.com/arunGudelli) or [facebook](https://www.facebook.com/gudelliArun) or [github](https://github.com/arungudelli/) to get in touch with me.
+
