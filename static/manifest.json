@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Learn JavaScript",
-  "short_name": "Learn JavaScript",
+  "name": "Go language tutorial",
+  "short_name": "Golang tutorial",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Learn JavaScript",
+  "description": "Go language tutorial",
   "start_url": "/",
    "icons": [
   {
