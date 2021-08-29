@@ -1,14 +1,14 @@
 +++
 title = "Check if a map contains a key in Go"
 date = "2020-12-21T14:09:21+09:00"
-description = "To check if a map contains a key in Go, follow the below steps.1. Index the map with the given key. 2. When we index a map in Go, we will get two return values.3. First return value contains the value and the second return value is a boolean that indicates if the key exists or not"
+description = "Steps to check if a map contains a key in Go or Golang,1. Index the map with the given key. 2. When we index a map in Go, we will get two return values.3. First return value contains the value and the second return value is a boolean that indicates if the key exists or not"
 draft = "false"
 link = "Check if a map contains a key"
 image= "images/featured/golangpostimage.png"
 enableToc = false
 +++
 
-To check if a map contains a key in Go follow the below steps
+Steps to check if a map contains a key in Go or Golang
 
 1. Index the map with the given key.
 2. When we index a map in Go, we will get two return values.
@@ -51,7 +51,9 @@ go run check-if-map-contains-key.go
 Map contains the key and the value is 200
 ```
 
-The above code snippet is more readable and easy to understand. 
+The above code snippet is more readable and easy to understand.
+
+There are two other ways where we can verify if a key exists in a map mentioned below.
 
 The `if` statement in Go can contain both condition and an initialization statement. 
 
