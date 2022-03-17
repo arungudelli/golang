@@ -10,7 +10,7 @@ enableToc = false
 
 There's no foreach loop in Golang.
 
-However we can replicate **foreach loop behaviour using for loop** in Go.
+However we can replicate **foreach loop behavior using for loop** in Go.
 
 A "for" statement with a "range" clause loops through all elements of an array, slice, string or map.
 
