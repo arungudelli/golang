@@ -3944,6 +3944,10 @@ input:checked+.slider:before {
 	direction: ltr
 }
 
+h2 code{
+	font-size:1.5rem !important;
+}
+
 
 .theme__light .single__contents pre {
 	border-top: 1px solid rgba(12, 13, 14, .1);
