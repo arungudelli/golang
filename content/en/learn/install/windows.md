@@ -1,17 +1,17 @@
 ---
-title: "Install Go Language in Windows OS"
-description: "Learn How to setup go programming language in Windows OSEnvironment"
+title: "How to Download & install Go Language in Windows OS"
+description: "Learn How to setup go programming language in Windows OS Environment"
 date: 2020-09-05T14:09:21+09:00
 draft: false
 link: "Windows"
 weight: 1
 ---
 
-To install Go language in Windows OS follow the below steps.
+To download and install Go language in Windows OS follow the below steps.
 
 ## Download Go language MSI
 
-Download .MSI file from official [go lang website](https://golang.org/dl/go1.15.1.windows-amd64.msi)
+Download Go language `.MSI` file from official [golang website](https://golang.org/dl/go1.15.1.windows-amd64.msi)
 
 Open the MSI and it will Open Go programming language installation setup wizard, click on Next Button
 
@@ -21,15 +21,15 @@ And then it will open end user license agreement, I know most of them won't read
 
 ![Go end user license agreement](/images/install/goInstall2.PNG)
 
-In the next step it will ask for Go progragmming language installation folder.
+In the next step it will ask for Go programming language installation folder.
 
 ## Select Go language Installation Location
 
-The default installation location of Go progragmming Language in Windows is "C:\Go".
+The default installation location of Go programming Language in Windows is "C:\Go".
 
 ![Go Language Location](/images/install/goinstalllocation.PNG)
 
-If you are beginner and don't know much above environment varibles etc.. do not change the installation folder keep it as is. As our goal is to learn the go language not the setup.
+If you are beginner and don't know much above environment variables etc.. do not change the installation folder keep it as is. As our goal is to learn the go language not the setup.
 
 ## Go language Installation Process
 
@@ -52,6 +52,6 @@ Open the command prompt and run `go version` command.
 go version go1.15.1 windows/amd64
 ```
 
-If command prompt is already opened, close it and restart the command propmpt.
+If command prompt is already opened, close it and restart the command prompt.
 
 ![Go Installation Verification](/images/install/goVerify.PNG).
