@@ -16,10 +16,10 @@ There are three ways to check if a key exists in a Go map or check if a map cont
 
 ## Using `Go` `map` index notation
 
-Here are the Steps to check if a map contains a key in Golang using index notation
+Here are the Steps to check if a map contains a key in `Golang` using index notation
 
 1. Index the map with the given key.
-2. When we index a map in Go, we will get two return values.
+2. When we index a `map` in `Go`, we will get two return values.
 3. First return value contains the value and the second return value is a boolean that indicates if the key exists or not.
 
 We will go through an example to understand it further.
@@ -61,7 +61,7 @@ Map contains the key and the value is 200
 
 The above code snippet is more readable and easy to understand.
 
-There are two other ways where we can verify if a key exists in a `map` as mentioned above.
+There are two other ways where we can verify if a key exists in a `Golang map` as mentioned above.
 
 ## Using `if` statement
 
