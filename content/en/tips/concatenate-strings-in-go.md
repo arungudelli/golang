@@ -6,6 +6,8 @@ draft = "false"
 link = "concatenate strings"
 image= "images/featured/golangpostimage.png"
 enableToc = true
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 To concatenate strings in Go (aka Golang) we can use `strings.Builder` and `bytes.Buffer` types.

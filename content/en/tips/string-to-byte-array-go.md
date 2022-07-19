@@ -5,6 +5,8 @@ description = "To convert a string to byte array or slice in Go language use []b
 draft = "false"
 link = "convert string to byte array"
 image= "images/featured/convert-string-byte-array.png"
+authorurl="https://www.arungudelli.com/"
+
 
 +++
 

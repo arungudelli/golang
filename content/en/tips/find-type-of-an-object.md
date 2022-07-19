@@ -4,6 +4,8 @@ date = "2020-09-05T14:09:21+09:00"
 description = "To check or find the type of variable or object in Go language, we can use %T string format flag, reflect.TypeOf, reflect.ValueOf.Kind functions.And another method is to use type assertions with switch case"
 draft = "false"
 link = "Find Type of a varibale or object"
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 To check or find the type of variable or object in Go language, we can use %T string format flag, reflect.TypeOf, reflect.ValueOf.Kind functions. 

@@ -6,6 +6,8 @@ draft = "false"
 link = "concatenate two strings"
 image= "images/featured/golangpostimage.png"
 enableToc = true
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 There three simple ways to concatenate two strings in Go language 

@@ -6,6 +6,8 @@ draft = "false"
 link = "retract go module version"
 image= "images/featured/golangpostimage-retract.png"
 enableToc = true
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 One of the cool feature of Go 1.16 is retracting Go Module versions.

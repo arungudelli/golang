@@ -6,6 +6,8 @@ draft = "false"
 link = "join strings with separator"
 image= "images/featured/golangpostimage.png"
 enableToc = false
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 To join or concatenate strings with a separator or delimiter in Go, use **`strings.Join()`** method.

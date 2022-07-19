@@ -6,6 +6,7 @@ draft = "false"
 link = "Check for empty string"
 enableToc = true
 image= "images/featured/golangpostimage.png"
+authorurl="https://www.arungudelli.com/"
 
 +++
 

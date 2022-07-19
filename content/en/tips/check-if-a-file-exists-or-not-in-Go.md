@@ -5,6 +5,7 @@ description = "To check if a file exists or not in `Go` language, we can make us
 draft = "false"
 link = "check if a file exists or not"
 image= "images/featured/golangpostimage.png"
+authorurl="https://www.arungudelli.com/"
 enableToc = true
 +++
 

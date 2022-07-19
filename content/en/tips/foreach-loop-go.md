@@ -6,6 +6,8 @@ draft = "false"
 link = "foreach loop"
 image= "images/featured/golangpostimage.png"
 enableToc = false
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 There's no foreach loop in Golang.

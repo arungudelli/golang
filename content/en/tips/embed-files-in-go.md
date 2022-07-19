@@ -6,6 +6,8 @@ draft = "false"
 link = "Embed Files"
 image= "images/featured/golangpostimage.png"
 enableToc= false
+authorurl="https://www.arungudelli.com/"
+
 
 
 +++

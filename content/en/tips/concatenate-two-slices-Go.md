@@ -6,6 +6,8 @@ draft = "false"
 link = "Concatenate Two Slices"
 image= "images/featured/golangpostimage.png"
 enableToc = false
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 Using golang's `append()` function we can concatenate two slices in Go.

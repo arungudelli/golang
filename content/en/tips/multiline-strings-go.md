@@ -6,6 +6,8 @@ draft = "false"
 link = "multiline strings"
 enableToc = false
 image= "images/featured/golangpostimage.png"
+authorurl="https://www.arungudelli.com/"
+
 
 +++
 

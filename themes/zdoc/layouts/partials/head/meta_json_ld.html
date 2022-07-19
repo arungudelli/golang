@@ -13,6 +13,9 @@
     "author": {
       "@type": "Person",
       "name": "Arunkumar Gudelli"
+      {{ with $.Param "authorurl" -}}
+      ,"url":{{ . }}
+      {{end}}
     },
     {{ with $.Param "date" -}}
     "datePublished":{{.}},

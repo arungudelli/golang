@@ -6,6 +6,8 @@ draft = "false"
 link = "Check if a map contains a key"
 image= "images/featured/golangpostimage.png"
 enableToc = true
+authorurl="https://www.arungudelli.com/"
+
 +++
 
 There are three ways to check if a key exists in a Go map or check if a map contains a key in Go language.

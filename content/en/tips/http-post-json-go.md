@@ -6,6 +6,7 @@ draft = "false"
 link = "http post json"
 enableToc = false
 image= "images/featured/golangpostimage.png"
+authorurl="https://www.arungudelli.com/"
 
 +++
 
