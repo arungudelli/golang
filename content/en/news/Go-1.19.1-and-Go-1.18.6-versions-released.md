@@ -1,7 +1,7 @@
 +++
 title = "Go 1.19.1 and Go 1.18.6 versions are released"
 date = "2022-09-06T00:00:00+00:00"
-description = "Go language team at Google released two minor versions Go 1.18.5 and Go 1.17.13 on 06-09-2022."
+description = "Go language team at Google released two minor versions Go 1.19.1 and Go 1.18.6 on 06-09-2022."
 draft = "false"
 link = "Go 1.19.1 and Go 1.18.6"
 image= "images/featured/golangpostimage.png"
@@ -9,7 +9,7 @@ enableToc= true
 
 +++
 
-Go language team at Google released two minor versions Go 1.18.5 and Go 1.17.13 on 06-09-2022.
+Go language team at Google released two minor versions Go 1.19.1 and Go 1.18.6 on 06-09-2022.
 
 As part of these releases, Go language team fixed following security issues.
 
